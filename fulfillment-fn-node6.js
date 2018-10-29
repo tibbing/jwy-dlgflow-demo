@@ -2,12 +2,12 @@
 
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
+let name = null;
 
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
   const agent = new WebhookClient({ request, response });
-  let name = null;
 
   function welcome (agent) {
     agent.add(`Welcome to my agent!`);
@@ -22,7 +22,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     agent.add(`Hello World from Firebase!`);
   }
 
-  function name (agent) {
+  function getBotName (agent) {
     agent.add(`My name is dialogflow, but you can call me Doug.`);
     agent.add(`What is yours?`);
   }
@@ -33,7 +33,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
 
   function getName (agent) {
-    if($name === null){
+    if(name === null){
         agent.add(`I don't know. What do you want me to call you?`);
     }else{
         agent.add(`Your name is ${name}`);
@@ -44,7 +44,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
   intentMap.set('HelloWorld', helloWorld);
-  intentMap.set('Name', name);
+  intentMap.set('Name', getBotName);
   intentMap.set('Name.Set', setName);
   intentMap.set('Name.Get', getName);
   agent.handleRequest(intentMap);
