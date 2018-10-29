@@ -21,14 +21,20 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     agent.add(`Hello World from Firebase!`);
   }
 
-  function whatIsYourName (agent) {
+  function name (agent) {
     agent.add(`My name is dialogflow, but you can call me Doug.`);
     agent.add(`What is yours?`);
+  }
+
+  function nameYours (agent) {
+    agent.add(`Alright, I'll keep that in mind.`);
   }
 
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
-  intentMap.set('Name', whatIsYourName);
+  intentMap.set('HelloWorld', helloWorld);
+  intentMap.set('Name', name);
+  intentMap.set('Name.Yours', nameYours);
   agent.handleRequest(intentMap);
 });
