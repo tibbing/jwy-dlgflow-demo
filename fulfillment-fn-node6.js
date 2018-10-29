@@ -2,7 +2,6 @@
 
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
-let name = null;
 
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 
