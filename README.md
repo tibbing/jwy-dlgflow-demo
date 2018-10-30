@@ -50,7 +50,7 @@ Navigate to [dialogflow.com](https://dialogflow.com)
 2. The default response should be **"Hello world!"**
 
 
-![Testing](HelloWorldIntentTest.JPG?raw=true "Testing")
+<img src="HelloWorldIntentTest.JPG" alt="Testing" width="400"/>
 
 ----
 
