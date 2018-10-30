@@ -89,13 +89,13 @@ Now, let's add a new intent called **Name.Get**:
 1. In the top right panel, type **"What is your name?"** and hit enter.
 2. The bot will answer with it's name, and ask for yours. Type your name, and observe the response:
 
-![Testing](NameSetTest.JPG?raw=true "Testing")
+<img src="NameSetTest.JPG" alt="Testing" width="400"/>
 
 
 3. Now, type **"What is my name?"** and hit enter.
 The bot should reply with your name.
 
-![Testing](NameGetTest.JPG?raw=true "Testing")
+<img src="NameGetTest.JPG" alt="Testing" width="400"/>
 
 ----
 
