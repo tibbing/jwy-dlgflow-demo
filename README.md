@@ -48,7 +48,7 @@ Paste the following code: ([Source code](/src/fulfillment-fn-node6.js))
 ```
 This piece of code utilizes the Dialogflow Fulfillment SDK for Node.js, and defines handlers for three different intents: **Default Welcome Intent**, **Default Fallback intent**, and **HelloWorld**. 
 
-The function **helloWorld**(*agent*) is adds a response when the HelloWorld intent is triggered. This response can, of course be anything you like and also depend on your application's state or the context that is provided with the request. 
+The function **helloWorld**(*agent*) adds a response when the HelloWorld intent is triggered. This response can, of course be anything you like and also depend on your application's state or the context that is provided with the request. 
 
 You may also provide multiple responses if you like, as demonstrated in the fallback intent. 
 
