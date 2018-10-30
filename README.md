@@ -2,7 +2,7 @@
 
 In [Step 1. Hello World](https://github.com/tibbing/jwy-dlgflow-demo/tree/steps/1.HelloWorld), you created your first Intent. When the user says **"My first intent"**, the bot replies with **"Hello world!"**.
 
-In this step, you will learn how to create a custom response using a fulfillment. A fulfillment is basically a way to create a dynamic response, based on the input phrase or question - instead of having pre-defined, static responses. 
+In this step, you will learn how to create a custom response using a fulfillment. A fulfillment is basically a way to create a response programmatically, based on the input phrase or question - instead of having pre-defined, static responses. 
 
 
 ----
