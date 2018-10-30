@@ -53,3 +53,7 @@ Navigate to [dialogflow.com](https://dialogflow.com)
 ![Testing](HelloWorldIntentTest.JPG?raw=true "Testing")
 
 ----
+
+That's it! You have successfully created your first agent and hello world intent! 
+Now proceed to [Step 2. Fulfillments](/tree/steps/2.Fulfillments)
+
