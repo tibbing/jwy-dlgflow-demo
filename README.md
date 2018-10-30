@@ -80,7 +80,7 @@ Test it by typing one of the questions you trained your agent with in the test s
 
 The bot will tell his name, and then ask you about your name.
 
-<img src="NameTest.JPG" alt="drawing" width="400"/>
+<img src="NameTest.JPG" alt="Testing" width="400"/>
 
 
 ----
@@ -114,7 +114,7 @@ It's time to add the follow-up intent.
 1. In the top right panel, type **"What is your name?"** and hit enter.
 2. The bot will answer with it's name, and ask for yours. Type your name, and observe the response:
 
-<img src="NameSetTest.JPG" alt="drawing" width="400"/>
+<img src="NameSetTest.JPG" alt="Testing" width="400"/>
 
 >If you were to say your name before asking for the bot's name, it would not understand what you meant. This is because an input context called **Name-followup** is required to trigger the Name.Set intent. 
 
