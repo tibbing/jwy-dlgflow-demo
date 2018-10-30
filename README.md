@@ -98,7 +98,10 @@ It's time to add the follow-up intent.
 
 >"My name is John"
 
-4. Note that Dialogflow automatically detects **John** as type *sys.given-name* and highlights them in the training phrases. It will also be added under **Action and parameters**
+4. Note that Dialogflow automatically detects **John** as type **sys.given-name** and highlights them in the training phrases. It will also be added under **Action and parameters**
+
+>**sys.given-name** is a built-in parameter type, and there are several other types like numbers, locations, colors, date/time etc. You can also add custom entities and populate them with your own range of values.
+
 5. Toogle the switch next to **Enable webhook for this intent**
 6. Click **Save** and wait for the *Agent training completed* message
 
