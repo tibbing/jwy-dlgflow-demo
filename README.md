@@ -15,6 +15,7 @@ In this step, you will learn how to create a custom response using a fulfillment
 
 Paste the following code: ([Source code](/src/fulfillment-fn-node6.js))
 
+```
     'use strict';
 
     const functions = require('firebase-functions');
@@ -44,7 +45,7 @@ Paste the following code: ([Source code](/src/fulfillment-fn-node6.js))
       intentMap.set('HelloWorld', helloWorld);
       agent.handleRequest(intentMap);
     });
-
+```
 This piece of code utilizes the Dialogflow Fulfillment SDK for Node.js, and defines handlers for three different intents: **Default Welcome Intent**, **Default Fallback intent**, and **HelloWorld**. 
 
 The function **helloWorld**(*agent*) is adds a response when the HelloWorld intent is triggered. This response can, of course be anything you like and also depend on your application's state or the context that is provided with the request. 
