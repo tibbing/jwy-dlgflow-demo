@@ -50,7 +50,7 @@ This piece of code utilizes the Dialogflow Fulfillment SDK for Node.js, and defi
 
 The function **helloWorld**(*agent*) is adds a response when the HelloWorld intent is triggered. This response can, of course be anything you like and also depend on your application's state or the context that is provided with the request. 
 
-You may also provide multiple responses if you like, as displayed in the fallback intent. 
+You may also provide multiple responses if you like, as demonstrated in the fallback intent. 
 
 
 ![Fulfillment Inline Editor](FulfillmentInline.JPG?raw=true "Fulfillment Inline Editor")
