@@ -76,7 +76,7 @@ You may also provide multiple responses if you like, as demonstrated in the fall
 2. The default response should be **"Hello world from Firebase!"**
 
 
-![Testing](HelloWorldWithFulfillmentTest.JPG?raw=true "Testing")
+<img src="HelloWorldWithFulfillmentTest.JPG" alt="Testing" width="400"/>
 
 ----
 
