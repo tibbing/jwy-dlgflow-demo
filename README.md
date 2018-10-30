@@ -15,7 +15,7 @@ In this step, you will learn how to create a custom response using a fulfillment
 
 Paste the following code: ([Source code](/src/fulfillment-fn-node6.js))
 
-```
+```javascript
     'use strict';
 
     const functions = require('firebase-functions');
