@@ -2,7 +2,7 @@
 
 In [Step 2. Fulfillments](https://github.com/tibbing/jwy-dlgflow-demo/tree/steps/2.Fulfillments), you learned how to use a fulfillment to create responses dynamically.
 
-In this step, you will learn how to handle **Contexts** to create follow-up questions, and more complex dialog. 
+In this step, you will learn how to handle **Contexts** to create follow-up questions and more complex dialog. 
 
 
 ----
