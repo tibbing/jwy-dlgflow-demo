@@ -113,6 +113,10 @@ It's time to add the follow-up intent.
 
 ![Testing](NameSetTest.JPG?raw=true "Testing")
 
+3. If you were to say your name before asking for the bot's name, it would not understand what you meant. This is because an input context called **Name-followup** is required to trigger the Name.Set intent. If you check the Name intent, you will see that it now has an output context with the same name, and an adjustable number which declares the context lifespan - how many consecutive queries before the context is invalidated. 
+
+For example: If the context lifespan is set to 3, you would reply to the bot's question "What is yours?" with something other than a name up to 3 times before the bot is no longer interested in your name.
+
 ----
 
 In the next section, you will learn how to extract the provided name in the fulfillment, and remember it in future queries.
